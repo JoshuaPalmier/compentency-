@@ -1,0 +1,165 @@
+  /* used this to select everything and delet the orginal border and padding */
+  * {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  }
+  
+  /*  added my favorite font to my page */
+  body, html  {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+ /* used container to add my background image to the page */
+  .container {
+    background-image:linear-gradient(rgb(10, 10, 10),rgb(45, 177, 78));
+    /* used opcity to fade out image I selected as my profile picture */
+    opacity: 80%;
+    /* used cover to cover the entire page with my image */
+    background-size: cover;
+    /* use this to center my image on the page */
+    background-position: center,center;
+
+    border: 3px solid black;
+    width: 100%;
+   
+  }
+
+
+ 
+ /* changed the demensions of my image i selected  */
+img {
+  height: 250px;
+  position:auto;
+  background-image: url(/Project/img/Bio\ Background.jpg);
+  border-radius: 90%;
+  border: 3px,solid,black;
+  margin-left: 7rem ;
+  
+}
+
+.menu-2 {
+  background-color: rgba(8, 8, 8, 0.815);
+  }
+  
+  @media(min-width:812px){
+   .menu-2{
+     display: flex;
+     justify-content:space-between; 
+   }
+   img {
+    height: 250px;
+    position:auto;
+    background-image: url(/Project/img/Bio\ Background.jpg);
+    border-radius: 90%;
+    border: 3px,solid,black;
+    margin-left: 0;
+    margin-top: 2rem;
+   }
+
+   h1 {
+    font-size: 30px;
+    word-spacing: 13px;
+    color: white;
+    margin-left: 0;
+   
+   
+  }
+  
+  h3 {
+    display: inline;
+    margin-top: 15px;
+    margin-left: 0;
+    
+    color:white;
+   
+  }
+  }
+  
+  .project-background {
+    background-image: linear-gradient(rgb(10, 10, 10),rgba(45, 177, 78, 0.767));
+    font-size: medium;
+    background-size: cover;
+
+
+  }
+  
+  .menu-2 a {
+    color: rgb(252, 250, 250);
+    font-size: 22px;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.bio {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  /* aligned my bio to the center because it looked more professional */
+  text-align: center;
+  margin: 0px;
+  /* added a top border to bio to create separation*/
+  border-width: 2px;
+  border-top: solid;
+  /* changed my line height to create my seperation between lines */
+  line-height: 30px;
+  color: white;
+  font-size: 19px;
+}
+
+h2 {
+  
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-size:40px;
+
+}
+
+h1 {
+  font-size: 30px;
+  word-spacing: 13px;
+ 
+  padding-left: 8rem;
+}
+
+h3 {
+  padding-left: 2px;
+  
+  display: inline;
+  margin-top: 15px;
+  padding-left: 8rem;
+  color:white;
+ 
+}
+
+ul {
+  list-style: none;
+  background-color: linear-gradient(rgb(10, 10, 10),rgba(45, 177, 78, 0.767));
+  color: white;
+}
+
+ul li {
+  font-size: 2rem;
+  
+}
+
+.contact-page {
+ border: 2px solid white;
+  display: block;
+  color:white;
+  border-radius: 5px;
+  margin:auto;
+  
+}
+.form-center {
+  padding: 0 30%;
+  
+}
+
+

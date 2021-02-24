@@ -1,0 +1,172 @@
+:root {
+      --prmary:#dfb735;
+      --secondary:rgba(3, 106, 175, 0.589);
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+        
+        
+      
+
+
+
+
+/* global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2,h3 {
+
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+h3 {
+  color:rgb(45, 177, 78);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* header */
+.header-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Project/img/Background_image2.jpg);
+  background-repeat: no-repeat;
+  /* image covers intire inlhine page */
+  background-size: cover;
+  /* Postions the image to become more centered */
+  background-position: center, center;
+  height: 35vh;
+  color: rgb(241, 237, 237);
+}
+
+.header-in p {
+  font-size: 20px;
+}
+
+.header-in p i {
+  color:var(--primary);
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: var(--secondary);
+  color: white;
+  font-weight: 700;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+/* menu */
+.menu {
+background-color: rgb(8, 8, 8);
+}
+
+@media(min-width:768px){
+ .menu{
+   display: flex;
+   justify-content:space-around;
+   
+ }
+}
+
+
+.menu a {
+  color: rgb(252, 250, 250);
+  font-size: 22px;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.service i
+{
+  display:flex;
+  font-size: 40px;
+  background-color:var(--primary);
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+.service {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+@media(min-width:768px) {
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.form-msg {
+background-image:linear-gradient(rgb(10, 10, 10),rgba(45, 177, 78, 0.767));
+ color: white;
+ border-radius: 10px;
+ padding-left: 100px;
+ margin-bottom:50px;
+ font-size: 18px;
+ margin: 30px 50px 50px ;
+}
+
+.form-msg-p {
+  padding:5px;
+  display: flex;
+}
+
+input {
+  font-size: 18px;
+  width:90%;
+}
+
+label {
+  width:150px;
+}
+
+textarea {
+  width:80%;
+  height:80px;
+}
+
+.btn-form {
+   background-color: gray;
+   font-size: 25px;
+   border: none;
+   color: rgb(12, 11, 11);
+   font-weight: 700;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+h1{
+  flex: display;
+  flex-direction: row;
+}
